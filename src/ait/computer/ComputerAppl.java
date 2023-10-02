@@ -6,8 +6,6 @@ import ait.computer.model.Smartphone;
 
 public class ComputerAppl {
     public static void main(String[] args) {
-        double a = 10;
-        int[] arr = new int[10];
         Computer[] shop = new Computer[4];
         shop[0] = new Computer("i5", 12, 512, "HP");
         shop[1] = new Laptop("i7", 16, 512, "Asus", 3, 2.1);
